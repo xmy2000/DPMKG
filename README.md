@@ -23,4 +23,4 @@ physical domain of a non-stationary manufacturing system. By integrating digital
 extensive data can be effectively leveraged to generate knowledge for reasoning, thereby facilitating intelligent and
 refined control of non-stationary manufacturing systems.
 
-<img src="/figure/Fig1.png"  width="500" align = “center” />
+<img src="/figure/Fig1.png"  width="500" />
