@@ -1,7 +1,10 @@
 # DPMKG: Digital-Physical Manufacturing Knowledge Graph
 
 This repository provides an implementation of DPMKG described in the paper: A knowledge graph construction and causal
-structure mining approach for non-stationary manufacturing systems
+structure mining approach for non-stationary manufacturing systems.
+<br>
+*Declaration: Due to the lack of time, the documentation and code comments in this repository are still being refined.
+More details will be provided in the future, with continuous updates as the research progresses.*
 
 ## Abstract
 
@@ -24,3 +27,42 @@ extensive data can be effectively leveraged to generate knowledge for reasoning,
 refined control of non-stationary manufacturing systems.
 
 <img src="/figure/Fig1.png"  width="500" />
+
+## DPMKG Construction
+
+The attributes of machining elements within the physical domain undergo dynamic changes in real-time throughout the
+process. Consequently, the information necessary to describe these variations is dispersed across various processes,
+departments, and data sources. This fragmentation results in structural and semantic conflicts among the data,
+complicating the establishment of dynamic associations between characterization data and individual machining elements.
+This section presents a SysML model-driven construction pipeline for DPMKG that facilitates the efficient extraction,
+integration, and graph construction of multi-source heterogeneous data instances.
+
+<img src="/figure/Fig4.png"  width="800" />
+
+In the [construction](/construction) folder, we provide most of the code for the DPMKG build tool. It includes a
+[prototype system](/construction/instance_extraction) for instance extraction and graph construction. The back-end is
+built on springboot and the front-end is built on Vue. In addition, we provide [python scripts](/construction/KG_bulid)
+for processing the case data in the paper and building the graph.
+<br>
+At present, the open source code contains the complete build pipeline framework, but some specific construction methods
+are still under research and are not publicly available. We will update this repository as relevant research is
+published publicly.
+
+## Causal Structure Mining
+
+By reconstructing each node's causal embeddings and the causal effects between nodes, a knowledge graph reasoning model
+is established for the given task. This repository exposes two parts of the code
+for [dataset construction](/reasoning/data_process) and [model structure](/reasoning/causal_model).
+
+<img src="/figure/Fig6.png" width="500" />
+
+## Data
+
+Due to corporate confidentiality requirements, we are only authorized to disclose a portion of the data that does not
+involve specific process information and production information, and the disclosed data has been anonymized. It includes
+part of the [original data tables](/data/database_table) extracted from the information system database and
+the [processed instance data](/data/case_instance.xlsx) for training the KG inference model.
+
+## Figure
+
+The high score rate version of all the [figures](/figure) in the paper is provided.
