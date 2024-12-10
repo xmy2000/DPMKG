@@ -134,8 +134,8 @@ public class OWL2Neo4j {
     public static void main(String[] args) throws FileNotFoundException, MyException {
         String uri = "bolt://localhost:7687";
         String user = "neo4j";
-        String password = "xmy200408";
-        String owl = "TLO(2023-11-11 21-04-08).owl";
+        String password = "xxxxxx";
+        String owl = "xxx.owl";
         OWL2Neo4j u2n = new OWL2Neo4j(uri, user, password, owl);
         u2n.convert();
     }

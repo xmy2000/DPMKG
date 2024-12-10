@@ -112,7 +112,7 @@ public class OWLReadUtils {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        OWLReadUtils utils = new OWLReadUtils("TLO(2023-08-28 11-15-38).owl");
+        OWLReadUtils utils = new OWLReadUtils("xxx.owl");
         System.out.println(utils.findDataProperty("刀具清单"));
     }
 }

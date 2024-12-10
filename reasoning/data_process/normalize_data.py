@@ -27,4 +27,4 @@ stds = norm_data.std(ddof=0)
 df_standardized = (norm_data - means) / stds
 
 data[normalize_col] = df_standardized
-data.to_csv("../data/no_norm_data.csv", index=False)
+data.to_csv("../data/data.csv", index=False)

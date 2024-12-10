@@ -89,4 +89,4 @@ for row in range(data.shape[0]):
 
     graph_lst.append(pyg_data)
 
-torch.save(graph_lst, '../data/dataset/no_norm_dataset.pt')
+torch.save(graph_lst, '../data/dataset/dataset.pt')

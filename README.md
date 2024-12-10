@@ -44,8 +44,11 @@ integration, and graph construction of multi-source heterogeneous data instances
 
 In the [construction](/construction) folder, we provide most of the code for the DPMKG build tool. It includes a
 [prototype system](/construction/instance_extraction) for instance extraction and graph construction. The back-end is
-built on springboot and the front-end is built on Vue. In addition, we provide [python scripts](/construction/KG_bulid)
-for processing the case data in the paper and building the graph.
+built on springboot and the front-end is built on Vue. We
+used [vue-element-admin](https://panjiachen.github.io/vue-element-admin-site/zh/guide/) as our reference for the
+front-end implementation.
+In addition, we provide [python scripts](/construction/KG_bulid) for processing the case data in the paper and building
+the graph.
 <br>
 At present, the open source code contains the complete build pipeline framework, but some specific construction methods
 are still under research and are not publicly available. We will update this repository as relevant research is

@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class GraphController {
     private String uri = "bolt://localhost:7687";
     private String user = "neo4j";
-    private String password = "xmy200408";
+    private String password = "xxxxxx";
 
     @Autowired
     private GraphService graphService;

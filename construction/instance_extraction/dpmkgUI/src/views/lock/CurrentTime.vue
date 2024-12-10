@@ -1,38 +1,3 @@
-<!--
- * 
- *    ┏┓　　　┏┓
- *  ┏┛┻━━━┛┻┓
- *  ┃　　　　　　　┃
- *  ┃　　　━　　　┃
- *  ┃　＞　　　＜　┃
- *  ┃　　　　　　　┃
- *  ┃...　⌒　...　┃
- *  ┃　　　　　　　┃
- *  ┗━┓　　　┏━┛
- *      ┃　　　┃　
- *      ┃　　　┃
- *      ┃　　　┃
- *      ┃　　　┃  神兽保佑
- *      ┃　　　┃  代码无bug　　
- *      ┃　　　┃
- *      ┃　　　┗━━━┓
- *      ┃　　　　　　　┣┓
- *      ┃　　　　　　　┏┛
- *      ┗┓┓┏━┳┓┏┛
- *        ┃┫┫　┃┫┫
- *        ┗┻┛　┗┻┛
- * 
- * @Descripttion: 
- * @version: 
- * @Date: 2021-04-23 16:21:00
- * @LastEditors: huzhushan@126.com
- * @LastEditTime: 2022-09-25 11:10:49
- * @Author: huzhushan@126.com
- * @HomePage: https://huzhushan.gitee.io/vue3-element-admin
- * @Github: https://github.com/huzhushan/vue3-element-admin
- * @Donate: https://huzhushan.gitee.io/vue3-element-admin/donate/
- -->
-
 <template>
   <div class="current-time">
     <div class="time">{{ currentTime }}</div>

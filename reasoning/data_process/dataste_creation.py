@@ -28,7 +28,7 @@ if __name__ == '__main__':
             val_ids.extend(ids[train_size:train_size + val_size])
             test_ids.extend(ids[train_size + val_size:])
 
-    dataset = torch.load("../data/dataset/no_norm_dataset.pt")
+    dataset = torch.load("../data/dataset/dataset.pt")
     for data in dataset:
         data_id = data['name']
         if data_id in train_ids:
@@ -39,6 +39,6 @@ if __name__ == '__main__':
             TEST_DATA.append(data)
         else:
             raise Exception("Data not found.")
-    torch.save(TRAIN_DATA, "../data/dataset/no_norm_train_dataset.pt")
-    torch.save(VAL_DATA, "../data/dataset/no_norm_val_dataset.pt")
-    torch.save(TEST_DATA, "../data/dataset/no_norm_test_dataset.pt")
+    torch.save(TRAIN_DATA, "../data/dataset/train_dataset.pt")
+    torch.save(VAL_DATA, "../data/dataset/val_dataset.pt")
+    torch.save(TEST_DATA, "../data/dataset/test_dataset.pt")

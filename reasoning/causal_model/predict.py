@@ -16,7 +16,7 @@ plt.rcParams['axes.unicode_minus'] = False
 experiment = "experiment4"
 model_name = "causal_structure_mining"
 version = "version_8"
-file_name = "epoch=56-val_loss=0.1652-val_error=0.2519.ckpt"
+file_name = "xxx.ckpt"
 
 experiment_path = f"../checkpoints/{experiment}/{model_name}"
 model_path = f"{experiment_path}/lightning_logs/{version}/checkpoints/{file_name}"
