@@ -25,8 +25,9 @@ modeling, construction, and reasoning approach can effectively describe and anal
 physical domain of a non-stationary manufacturing system. By integrating digital and physical domain knowledge, the
 extensive data can be effectively leveraged to generate knowledge for reasoning, thereby facilitating intelligent and
 refined control of non-stationary manufacturing systems.
-
+<div align="center">
 <img src="/figure/Fig1.png"  width="500" />
+</div>
 
 ## DPMKG Construction
 
@@ -37,7 +38,9 @@ complicating the establishment of dynamic associations between characterization 
 This section presents a SysML model-driven construction pipeline for DPMKG that facilitates the efficient extraction,
 integration, and graph construction of multi-source heterogeneous data instances.
 
+<div align="center">
 <img src="/figure/Fig4.png"  width="800" />
+</div>
 
 In the [construction](/construction) folder, we provide most of the code for the DPMKG build tool. It includes a
 [prototype system](/construction/instance_extraction) for instance extraction and graph construction. The back-end is
@@ -54,7 +57,9 @@ By reconstructing each node's causal embeddings and the causal effects between n
 is established for the given task. This repository exposes two parts of the code
 for [dataset construction](/reasoning/data_process) and [model structure](/reasoning/causal_model).
 
+<div align="center">
 <img src="/figure/Fig6.png" width="500" />
+</div>
 
 ## Data
 
